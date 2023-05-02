@@ -1,0 +1,5 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Positive Cases,,,,2023-04-27 12:12:10,2023-04-27 12:12:11,0.636s,ERROR
+,,,,,,,
+Test Cases/Gabung Page/Positive Cases/GP001 - Registration,,,,2023-04-27 12:12:11,2023-04-27 12:12:11,0.354s,ERROR
+com.cermati.q4.BrowserUtility.openURL(cermatiGabung_Page),,,,2023-04-27 12:12:11,2023-04-27 12:12:11,0.022s,ERROR

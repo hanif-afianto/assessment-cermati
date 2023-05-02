@@ -1,0 +1,5 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Positive Cases,,,,2023-05-02 09:32:35,2023-05-02 09:32:35,0.945s,ERROR
+,,,,,,,
+Test Cases/Verification Page/Positive Cases/VP001 - Send OTP WhatsApp,,,,2023-05-02 09:32:35,2023-05-02 09:32:35,0.455s,ERROR
+"callTestCase(findTestCase(""Gabung Page/Positive Cases/GP001 - Registration""), [""email"":xemail, ""mobilePhone"":xmobilePhone, ""password"":xpassword, ""confirmPassword"":xconfirmPassword, ""firstName"":xfirstName, ... ], CONTINUE_ON_FAILURE)",,,,2023-05-02 09:32:35,2023-05-02 09:32:35,0.047s,ERROR

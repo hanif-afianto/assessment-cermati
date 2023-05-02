@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Positive Cases" time="24.391" tests="1" failures="0" errors="0">
+   <testsuite name="Positive Cases" tests="1" failures="0" errors="0" time="24.391" skipped="0" timestamp="2023-04-27 12:27:44" hostname="Intikom - NBPSS073" id="Test Suites/Registration Flow/Positive Cases">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\Intikom\\git\\1cermati-q4\\Reports\\20230427_122741\\Registration Flow\\Positive Cases\\20230427_122742"/>
+         <property name="logFiles" value="C:\\Users\\Intikom\\git\\1cermati-q4\\Reports\\20230427_122741\\Registration Flow\\Positive Cases\\20230427_122742\\execution0.log"/>
+         <property name="attachments" value="C:\\Users\\Intikom\\git\\1cermati-q4\\Reports\\20230427_122741\\Registration Flow\\Positive Cases\\20230427_122742\\Capture//Document_04_27_23_12_27_53.jpg, C:\\Users\\Intikom\\git\\1cermati-q4\\Reports\\20230427_122741\\Registration Flow\\Positive Cases\\20230427_122742\\Capture//Document_04_27_23_12_28_05.jpg"/>
+         <property name="hostName" value="Intikom - NBPSS073"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="8.5.5.208"/>
+         <property name="browser" value="Chrome 112.0.0.0"/>
+         <property name="hostAddress" value="10.113.123.4"/>
+         <property name="sessionId" value="a302b6d667820b9e29cc386dbc4c185f"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/Gabung Page/Positive Cases/GP001 - Registration" time="24.068" classname="Test Cases/Gabung Page/Positive Cases/GP001 - Registration" status="PASSED">
+         <system-out><![CDATA[2023-04-27 12:27:45 - [TEST_CASE][PASSED] - Test Cases/Gabung Page/Positive Cases/GP001 - Registration: Test Cases/Gabung Page/Positive Cases/GP001 - Registration
+
+2023-04-27 12:27:45 - [TEST_STEP][PASSED] - com.cermati.q4.BrowserUtility.openURL(cermatiGabung_Page): com.cermati.q4.BrowserUtility.openURL is PASSED
+
+2023-04-27 12:27:45 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2023-04-27 12:27:45 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2023-04-27 12:27:47 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2023-04-27 12:27:47 - [MESSAGE][PASSED] - Delete all cookies successfully
+
+2023-04-27 12:27:47 - [MESSAGE][PASSED] - Current window maximized
+
+2023-04-27 12:27:49 - [MESSAGE][PASSED] - Navigate to 'https://www.cermati.com/app/gabung' successfully
+
+2023-04-27 12:27:49 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2023-04-27 12:27:51 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2023-04-27 12:27:51 - [MESSAGE][PASSED] - com.cermati.q4.BrowserUtility.openURL is PASSED
+
+2023-04-27 12:27:51 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2023-04-27 12:27:53 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2023-04-27 12:27:53 - [TEST_STEP][PASSED] - com.cermati.q4.BrowserUtility.Screenshot(): com.cermati.q4.BrowserUtility.Screenshot is PASSED
+
+2023-04-27 12:27:56 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2023-04-27 12:27:56 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\\Users\\Intikom\\git\\1cermati-q4\\Reports\\20230427_122741\\Registration Flow\\Positive Cases\\20230427_122742\\Capture//Document_04_27_23_12_27_53.jpg]]
+
+2023-04-27 12:27:56 - [MESSAGE][PASSED] - com.cermati.q4.BrowserUtility.Screenshot is PASSED
+
+2023-04-27 12:27:56 - [TEST_STEP][PASSED] - setText(findTestObject("gabung-page/txt/email_input"), email): Text 'test001@hanifafianto.com' is set on object 'Object Repository/gabung-page/txt/email_input'
+
+2023-04-27 12:27:57 - [MESSAGE][PASSED] - Text 'test001@hanifafianto.com' is set on object 'Object Repository/gabung-page/txt/email_input'
+
+2023-04-27 12:27:57 - [TEST_STEP][PASSED] - setText(findTestObject("gabung-page/txt/mobilePhone_input"), mobilePhone): Text '081914965697' is set on object 'Object Repository/gabung-page/txt/mobilePhone_input'
+
+2023-04-27 12:27:58 - [MESSAGE][PASSED] - Text '081914965697' is set on object 'Object Repository/gabung-page/txt/mobilePhone_input'
+
+2023-04-27 12:27:58 - [TEST_STEP][PASSED] - setText(findTestObject("gabung-page/txt/password_input"), password): Text 'Passwordnya123' is set on object 'Object Repository/gabung-page/txt/password_input'
+
+2023-04-27 12:27:59 - [MESSAGE][PASSED] - Text 'Passwordnya123' is set on object 'Object Repository/gabung-page/txt/password_input'
+
+2023-04-27 12:27:59 - [TEST_STEP][PASSED] - setText(findTestObject("gabung-page/txt/confirmPassword_input"), confirmPassword): Text 'Passwordnya123' is set on object 'Object Repository/gabung-page/txt/confirmPassword_input'
+
+2023-04-27 12:28:00 - [MESSAGE][PASSED] - Text 'Passwordnya123' is set on object 'Object Repository/gabung-page/txt/confirmPassword_input'
+
+2023-04-27 12:28:00 - [TEST_STEP][PASSED] - setText(findTestObject("gabung-page/txt/firstName_input"), firstName): Text 'Hanif' is set on object 'Object Repository/gabung-page/txt/firstName_input'
+
+2023-04-27 12:28:00 - [MESSAGE][PASSED] - Text 'Hanif' is set on object 'Object Repository/gabung-page/txt/firstName_input'
+
+2023-04-27 12:28:00 - [TEST_STEP][PASSED] - setText(findTestObject("gabung-page/txt/lastName_input"), lastName): Text 'Afianto' is set on object 'Object Repository/gabung-page/txt/lastName_input'
+
+2023-04-27 12:28:01 - [MESSAGE][PASSED] - Text 'Afianto' is set on object 'Object Repository/gabung-page/txt/lastName_input'
+
+2023-04-27 12:28:01 - [TEST_STEP][PASSED] - setText(findTestObject("gabung-page/txt/cityAndProvince_input"), cityAndProvince): Text 'KOTA JAKARTA SELATAN' is set on object 'Object Repository/gabung-page/txt/cityAndProvince_input'
+
+2023-04-27 12:28:02 - [MESSAGE][PASSED] - Text 'KOTA JAKARTA SELATAN' is set on object 'Object Repository/gabung-page/txt/cityAndProvince_input'
+
+2023-04-27 12:28:02 - [TEST_STEP][PASSED] - tncChecker = verifyElementNotPresent(findTestObject("gabung-page/txt/tncChecker_txt"), 0): Web element with id: 'Object Repository/gabung-page/txt/tncChecker_txt' located by 'By.xpath: //div[text()='Anda harus menyetujui Syarat dan Ketentuan serta Kebijakan Privasi Cermati.com.']' is not present after '30' second(s)
+
+2023-04-27 12:28:02 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-04-27 12:28:02 - [MESSAGE][PASSED] - Web element with id: 'Object Repository/gabung-page/txt/tncChecker_txt' located by 'By.xpath: //div[text()='Anda harus menyetujui Syarat dan Ketentuan serta Kebijakan Privasi Cermati.com.']' is not present after '30' second(s)
+
+2023-04-27 12:28:02 - [TEST_STEP][PASSED] - tncCheckbox = verifyElementChecked(findTestObject("Object Repository/gabung-page/btn/tnc_checkbox"), 0): Object 'Object Repository/gabung-page/btn/tnc_checkbox' is checked
+
+2023-04-27 12:28:02 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-04-27 12:28:03 - [MESSAGE][PASSED] - Object 'Object Repository/gabung-page/btn/tnc_checkbox' is checked
+
+2023-04-27 12:28:03 - [TEST_STEP][PASSED] - if (tncChecker == true && tncCheckbox == false): null
+
+2023-04-27 12:28:03 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2023-04-27 12:28:05 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2023-04-27 12:28:05 - [TEST_STEP][PASSED] - com.cermati.q4.BrowserUtility.Screenshot(): com.cermati.q4.BrowserUtility.Screenshot is PASSED
+
+2023-04-27 12:28:08 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2023-04-27 12:28:08 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\\Users\\Intikom\\git\\1cermati-q4\\Reports\\20230427_122741\\Registration Flow\\Positive Cases\\20230427_122742\\Capture//Document_04_27_23_12_28_05.jpg]]
+
+2023-04-27 12:28:08 - [MESSAGE][PASSED] - com.cermati.q4.BrowserUtility.Screenshot is PASSED
+
+2023-04-27 12:28:08 - [TEST_STEP][PASSED] - com.cermati.q4.BrowserUtility.clickButton(findTestObject("gabung-page/btn/daftar_btn"), STOP_ON_FAILURE, "Click Daftar Button"): com.cermati.q4.BrowserUtility.clickButton is PASSED
+
+2023-04-27 12:28:08 - [MESSAGE][INFO] - Click Daftar Button
+
+2023-04-27 12:28:09 - [MESSAGE][PASSED] - Object: 'Object Repository/gabung-page/btn/daftar_btn' is clicked on
+
+2023-04-27 12:28:09 - [MESSAGE][PASSED] - com.cermati.q4.BrowserUtility.clickButton is PASSED]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2023-04-27 12:27:44 - [TEST_SUITE][PASSED] - Positive Cases: Test Cases/Gabung Page/Positive Cases/GP001 - Registration]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

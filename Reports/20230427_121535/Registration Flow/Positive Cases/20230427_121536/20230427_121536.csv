@@ -1,0 +1,20 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Positive Cases,Chrome 112.0.0.0,,,2023-04-27 12:15:42,2023-04-27 12:16:07,24.824s,PASSED
+,,,,,,,
+Test Cases/Gabung Page/Positive Cases/GP001 - Registration,Chrome 112.0.0.0,,,2023-04-27 12:15:42,2023-04-27 12:16:07,24.523s,PASSED
+com.cermati.q4.BrowserUtility.openURL(cermatiGabung_Page),Chrome 112.0.0.0,,,2023-04-27 12:15:42,2023-04-27 12:15:49,6.417s,PASSED
+delay(2),Chrome 112.0.0.0,,,2023-04-27 12:15:49,2023-04-27 12:15:51,2.002s,PASSED
+com.cermati.q4.BrowserUtility.Screenshot(),Chrome 112.0.0.0,,,2023-04-27 12:15:51,2023-04-27 12:15:54,3.436s,PASSED
+"setText(findTestObject(""gabung-page/txt/email_input""), email)",Chrome 112.0.0.0,,,2023-04-27 12:15:54,2023-04-27 12:15:55,0.794s,PASSED
+"setText(findTestObject(""gabung-page/txt/mobilePhone_input""), mobilePhone)",Chrome 112.0.0.0,,,2023-04-27 12:15:55,2023-04-27 12:15:56,0.760s,PASSED
+"setText(findTestObject(""gabung-page/txt/password_input""), password)",Chrome 112.0.0.0,,,2023-04-27 12:15:56,2023-04-27 12:15:56,0.747s,PASSED
+"setText(findTestObject(""gabung-page/txt/confirmPassword_input""), confirmPassword)",Chrome 112.0.0.0,,,2023-04-27 12:15:56,2023-04-27 12:15:57,0.746s,PASSED
+"setText(findTestObject(""gabung-page/txt/firstName_input""), firstName)",Chrome 112.0.0.0,,,2023-04-27 12:15:57,2023-04-27 12:15:58,0.734s,PASSED
+"setText(findTestObject(""gabung-page/txt/lastName_input""), lastName)",Chrome 112.0.0.0,,,2023-04-27 12:15:58,2023-04-27 12:15:59,0.745s,PASSED
+"setText(findTestObject(""gabung-page/txt/cityAndProvince_input""), cityAndProvince)",Chrome 112.0.0.0,,,2023-04-27 12:15:59,2023-04-27 12:15:59,0.777s,PASSED
+"tncChecker = verifyElementNotPresent(findTestObject(""gabung-page/txt/tncChecker_txt""), 0)",Chrome 112.0.0.0,,,2023-04-27 12:15:59,2023-04-27 12:16:00,0.428s,PASSED
+"tncCheckbox = verifyElementChecked(findTestObject(""Object Repository/gabung-page/btn/tnc_checkbox""), 0)",Chrome 112.0.0.0,,,2023-04-27 12:16:00,2023-04-27 12:16:01,0.829s,PASSED
+if (tncChecker == true && tncCheckbox == false),Chrome 112.0.0.0,,,2023-04-27 12:16:01,2023-04-27 12:16:01,0.000s,PASSED
+delay(2),Chrome 112.0.0.0,,,2023-04-27 12:16:01,2023-04-27 12:16:03,2.005s,PASSED
+com.cermati.q4.BrowserUtility.Screenshot(),Chrome 112.0.0.0,,,2023-04-27 12:16:03,2023-04-27 12:16:06,3.413s,PASSED
+"com.cermati.q4.BrowserUtility.clickButton(findTestObject(""gabung-page/btn/daftar_btn""), STOP_ON_FAILURE, ""Click Daftar Button"")",Chrome 112.0.0.0,,,2023-04-27 12:16:06,2023-04-27 12:16:07,0.369s,PASSED
